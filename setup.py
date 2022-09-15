@@ -26,7 +26,7 @@ setup(
     url='https://github.com/peterdemin/gcpfwup',
     py_modules=['update_firewall_ip', 'test_update_firewall_ip'],
     entry_points={
-        'gcpfwup': [
+        'console_scripts': [
             'gcpfwup=update_firewall_ip:main'
         ]
     },
