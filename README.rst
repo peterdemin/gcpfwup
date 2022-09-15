@@ -10,7 +10,7 @@ Particularly, source IP range for allow SSH rule.
 Use case
 --------
 
-Harden a personal virtual machine in Google Cloud by allowing only a single IP address to log in through SSH.
+Harden a virtual machine in Google Cloud by allowing only a single IP address to log in through SSH.
 
 Usage
 -----
@@ -18,6 +18,10 @@ Usage
 .. code-block::
 
     gcpfwup service_account_file.json
+
+The only required argument is a path to Google service account JSON key file.
+You can download it from Google Cloud Console.
+It should be under IAM & Admin / Service Accounts and needs permissions for Google compute engine.
 
 Help
 ----
