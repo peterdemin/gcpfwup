@@ -9,3 +9,4 @@ ipdb
 black
 isort
 Flake8-pyproject
+twine

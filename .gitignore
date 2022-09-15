@@ -2,3 +2,4 @@ service_account_file.json
 __pycache__
 *.egg-info
 dist
+build
