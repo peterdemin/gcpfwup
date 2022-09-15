@@ -12,6 +12,16 @@ Use case
 
 Harden a virtual machine in Google Cloud by allowing only a single IP address to log in through SSH.
 
+Installation
+------------
+
+.. code-block::
+
+   pip install gcpfwup
+
+Requires Python 3.8 or newer.
+Depends on `google-cloud-compute <https://pypi.org/project/google-cloud-compute/>`_.
+
 Usage
 -----
 
