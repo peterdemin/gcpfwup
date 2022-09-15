@@ -17,7 +17,12 @@ Usage
 
 .. code-block::
 
-    gcpfwup service_account_file.json
+    gcpfwup -v service_account_file.json
+
+    Target public IP: 101.35.101.248.
+    IP(s) allowed for SSH: 127.0.0.1.
+    Updating rule to allow only target IP address...
+    Done.
 
 The only required argument is a path to Google service account JSON key file.
 You can download it from Google Cloud Console.
